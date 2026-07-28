@@ -1,0 +1,15 @@
+{
+  "name": "niranjan-devops-frontend",
+  "version": "1.0.0",
+  "description": "Simple frontend page served from src",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "start": "npx serve dist",
+    "dev": "npx live-server src --port=3000"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.0"
+  }
+}
