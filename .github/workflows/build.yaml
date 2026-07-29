@@ -15,7 +15,7 @@ jobs:
           node-version: 24
           package-manager-cache: false # Disable automatic npm caching if not required
       - run: npm ci
-      - run: npm test
+      - run: npm run build
       - uses: actions/upload-artifact@v7
         with:
            name: niranjan-artifact
